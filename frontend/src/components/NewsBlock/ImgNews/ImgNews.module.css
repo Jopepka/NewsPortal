@@ -1,0 +1,27 @@
+.imgNews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 320px;
+    max-height: 180px;
+
+    min-width: 213px;
+    min-height: 120px;
+
+    border-radius: 2%;
+    overflow: hidden;
+}
+
+.imgNews__img {
+    min-width: 100%;
+    min-height: 100%;
+    flex-shrink: 0;
+    transition: 0.5s;
+}
+
+.imgNews__img:hover {
+    transform: scale(110%);
+    transition: 0.5s;
+    flex-shrink: 0;
+}

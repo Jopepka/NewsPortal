@@ -1,0 +1,40 @@
+.newsBlock {
+    display: block;
+    text-wrap: wrap;
+    text-decoration: none;
+    color: black;
+    max-width: min-content;
+    margin: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.categories {
+    display: flex;
+
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.content {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.title {
+    font-size: large;
+    font-weight: 600;
+    text-wrap: wrap;
+}
+
+.discription {
+    font-size: smaller;
+    color: gray;
+}
+
+.author {
+    margin-top: 8px;
+}

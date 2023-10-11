@@ -1,0 +1,38 @@
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author__imgBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 45px;
+    height: 45px;
+
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: gray;
+    overflow: hidden;
+}
+
+.author__imgBlock__img {
+    height: 100%;
+    width: auto;
+}
+
+.author__info {
+    margin-left: 5px;
+}
+
+.author__info__name {
+    font-size: medium;
+    font-weight: 600;
+    text-wrap: wrap;
+}
+
+.author__info__fromInfo {
+    font-size: small;
+    color: gray;
+}

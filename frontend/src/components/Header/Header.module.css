@@ -1,0 +1,42 @@
+.header {
+    height: 40px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: white;
+    border-bottom: 1px solid;
+    border-color: rgba(128, 128, 128, 1);
+}
+
+.logo {}
+
+.logo__nav {
+    color: black;
+    font-size: large;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    width: 400px;
+    max-width: 400px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.nav__item {
+    color: gray;
+    text-decoration: none;
+
+    transition: 0.2s;
+}
+
+.nav__item:hover {
+    color: black;
+    transition: 0.2s;
+}
+
+.menu {}
