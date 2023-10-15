@@ -1,5 +1,4 @@
 .nav__item {
-
     color: gray;
     text-decoration: none;
     font-size: small;
@@ -14,9 +13,27 @@
     transition: 0.4s;
 }
 
-.nav__item:hover {
+.nav__item__active {
     color: black;
     background-color: rgba(101, 160, 255, 0.739);
+    text-decoration: none;
+    font-size: small;
+    height: max-content;
+
+    margin-left: 4px;
+    margin-right: 4px;
     padding: 0px 10px;
+
+    border-radius: 10px;
+
+    transition: 0.4s;
+}
+
+.nav__item:hover {
+    color: black;
+    background-color: rgba(120, 172, 255, 0.498);
+
+    padding: 0px 10px;
+
     transition: 0.4s;
 }

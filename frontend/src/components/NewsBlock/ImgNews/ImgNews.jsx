@@ -6,7 +6,7 @@ const ImgNews = (props) => {
             <img
                 className={imgNewsCSS.imgNews__img}
                 src="https://img.freepik.com/premium-vector/a-landscape-with-a-lake-and-a-sunset-in-the-background_931646-9.jpg"
-                alt="image news"
+                alt="news"
             />
         </div>
 

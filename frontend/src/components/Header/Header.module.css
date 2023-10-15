@@ -19,24 +19,4 @@
     text-decoration: none;
 }
 
-.navbar {
-    display: flex;
-    width: 400px;
-    max-width: 400px;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.nav__item {
-    color: gray;
-    text-decoration: none;
-
-    transition: 0.2s;
-}
-
-.nav__item:hover {
-    color: black;
-    transition: 0.2s;
-}
-
 .menu {}

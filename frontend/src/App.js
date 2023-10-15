@@ -1,14 +1,21 @@
-import './App.css';
+import appCSS from './App.module.css';
 import Header from './components/Header/Header'
-import MainFeed from './components/MainFeed/MainFeed';
-import NewsBlock from './components/NewsBlock/NewsBlock';
+import Footer from './components/Footer/Footer';
+import { useSelector } from 'react-redux';
 
-function App() {
+function App({ children }) {
+
+  const categories = useSelector(state => {
+    return state.categories.items;
+  })
+
   return (
-    <div className="App">
-      <Header></Header>
-
-      <MainFeed></MainFeed>
+    <div className={appCSS.app}>
+      <div className={appCSS.content}>
+        <Header categories={categories}></Header>
+      </div>
+      {children}
+      <Footer className={appCSS.footer}></Footer>
     </div>
   );
 }
