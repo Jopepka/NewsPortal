@@ -1,8 +1,11 @@
 # NewsPortal
 The site can be viewed by clicking on the link: https://news-portal-xuch.vercel.app/
-It is a news site that provides news in certain categories
+
+On the site you can find out the latest news in several categories and go to the site where the news was published.
 
 The site API is used to get articles [https://newscatcherapi.com/](https://gnews.io/)
+
+
 
 ## Stack:
 1. React
