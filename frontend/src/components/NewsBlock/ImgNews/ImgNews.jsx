@@ -1,11 +1,11 @@
 import imgNewsCSS from './ImgNews.module.css';
 
-const ImgNews = (props) => {
+const ImgNews = ({ src }) => {
     return (
         <div className={imgNewsCSS.imgNews}>
             <img
                 className={imgNewsCSS.imgNews__img}
-                src="https://img.freepik.com/premium-vector/a-landscape-with-a-lake-and-a-sunset-in-the-background_931646-9.jpg"
+                src={src}
                 alt="news"
             />
         </div>

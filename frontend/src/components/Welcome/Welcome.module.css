@@ -7,3 +7,33 @@
 }
 
 .box__title {}
+
+.linkToNews {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.linkToNews:hover {
+    transform: scale(110%);
+    transition: 0.5s;
+}
+
+.linkToNews__text {
+    display: inline-block;
+}
+
+.linkToNews__symbol {
+    display: inline-block;
+    animation: rotation 1s alternate infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(10px, 0px);
+    }
+}

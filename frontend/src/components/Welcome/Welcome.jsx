@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import welcomeCSS from './Welcome.module.css';
 
 const Welcome = () => {
@@ -11,9 +11,10 @@ const Welcome = () => {
                 <a href="https://github.com/Jopepka/NewsPortal"> https://github.com/Jopepka/NewsPortal</a>
             </div>
 
-            <NavLink to='/general'>
-                <h1>К новостям →</h1>
-            </NavLink>
+            <Link className={welcomeCSS.linkToNews} to='/general'>
+                <h1 className={welcomeCSS.linkToNews__text}>К новостям</h1>
+                <h1 className={welcomeCSS.linkToNews__symbol}>→</h1>
+            </Link>
         </div>
     )
 }

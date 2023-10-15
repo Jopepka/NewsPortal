@@ -1,4 +1,12 @@
 .footer {
     background-color: black;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
 }

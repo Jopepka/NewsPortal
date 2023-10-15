@@ -8,12 +8,15 @@ import { Provider } from 'react-redux';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import MainFeedConteiner from './components/MainFeed/MainFeedConteiner';
 import Welcome from './components/Welcome/Welcome';
+import ErrorPage from './components/Error/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App><Welcome /></App>
+    element: <App><Welcome /></App>,
+    errorElement: <ErrorPage />
   },
+
   ...store.getState().categories.items.map((category) => {
     return ({
       path: category.toPath,
@@ -21,6 +24,8 @@ const router = createBrowserRouter([
     })
   }, {})
 ]);
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

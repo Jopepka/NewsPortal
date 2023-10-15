@@ -1,12 +1,13 @@
 .app {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
 }
 
 .content {
-    /* flex: 1 0 auto; */
-}
-
-.footer {
-    flex: 0 1 auto;
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-left: 10%;
+    margin-right: 10%;
 }

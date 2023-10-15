@@ -12,8 +12,6 @@ const Header = ({ categories }) => {
             </div>
 
             <CategoriesBar categories={categories} />
-
-            <div className={headerCSS.menu}>Menu</div>
         </div>
     )
 }

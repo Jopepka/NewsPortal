@@ -6,6 +6,8 @@
 
 .loader__text {
     margin: 10px 0px;
+
+    color: gray;
     font-size: smaller;
     font-weight: 600;
 }

@@ -16,6 +16,7 @@
 .imgNews__img {
     min-width: 100%;
     min-height: 100%;
+    scale: 0.5;
     flex-shrink: 0;
     transition: 0.5s;
 }

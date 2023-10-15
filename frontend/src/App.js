@@ -11,10 +11,10 @@ function App({ children }) {
 
   return (
     <div className={appCSS.app}>
+      <Header categories={categories}></Header>
       <div className={appCSS.content}>
-        <Header categories={categories}></Header>
+        {children}
       </div>
-      {children}
       <Footer className={appCSS.footer}></Footer>
     </div>
   );
